@@ -18,13 +18,17 @@ import { HttpClientModule } from '@angular/common/http';
 // Import para formularios no angular 12
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+// Componente do projeto
+import { NavComponent } from './components/nav/nav.component';
+
 
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
