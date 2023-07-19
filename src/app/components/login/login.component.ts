@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
-import { Credenciais } from 'src/app/models/credeciais';
+import { Credenciais } from 'src/app/models/credenciais';
 
 @Component({
   selector: 'app-login',
